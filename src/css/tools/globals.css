@@ -1,0 +1,43 @@
+/*
+|--------------------------------------------------------------------------
+|                                 Variables
+|--------------------------------------------------------------------------
+*/
+
+:root {
+  --fontPrimary: 'Lato', sans-serif;
+}
+
+/*
+|--------------------------------------------------------------------------
+|                           Global CSS
+|--------------------------------------------------------------------------
+*/
+
+/* Lato Font */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700);
+
+body {
+  font-family: var(--fontPrimary);
+  font-size: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+li {
+  font-family: var(--fontPrimary);;
+  line-height: 1.45;
+}
+
+.full-width-row {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+}

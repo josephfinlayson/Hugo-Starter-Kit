@@ -1,0 +1,15 @@
+/* Normalize */
+@import 'tools/normalize.css';
+
+/* Media Queries */
+@import 'tools/media-queries.css';
+
+/* Tools */
+@import 'tools/globals.css';
+
+/* Partials */
+@import '_partials/navigation.css';
+@import '_partials/footer.css';
+
+/* Index Page */
+@import 'pages/index/index-hero.css';

@@ -1,0 +1,31 @@
+@custom-media --small-only (width <= 39.9375em);
+@custom-media --medium-up (width >= 40em);
+@custom-media --medium-only (width >= 40em) and (width <= 63.9375em);
+@custom-media --large-up (width >= 64em);
+@custom-media --large-only (width >= 64em) and (width <= 74.9375em);
+
+
+/* Small only */
+@media (--small-only) {
+
+}
+
+/* Medium up */
+@media (--medium-up) {
+
+}
+
+/* Medium only */
+@media --medium-only {
+
+}
+
+/* Large up */
+@media (--large-up) {
+
+}
+
+/* Large only */
+@media (--large-only) {
+
+}
