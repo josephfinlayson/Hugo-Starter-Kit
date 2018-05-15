@@ -16,3 +16,18 @@
   </head>
   <body>
 {{ partial "navigation" . }}
+
+
+<!--<div>Short Description of {{.Site.Data.test.Name}}:-->
+<!--<p>{{ index .Site.Data.test "Short Description" | markdownify }}</p>-->
+<!--</div>-->
+
+
+{{ $dataJ := getJSON "https://jsonplaceholder.typicode.com/posts/" }}
+
+{{ partial "contentBox" (dict "blah" $dataJ) }}
+<script>
+
+
+getJson().then()
+</script>
